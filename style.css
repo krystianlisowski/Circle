@@ -1,0 +1,32 @@
+.circle{
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    border-radius: 50%;
+    border-bottom: 120px solid red;
+    border-top: 120px solid blue;
+    border-left:120px solid green;
+    border-right:120px solid orange;
+    margin: 0 auto;
+    transition: all 5s ease;
+}
+
+.active {
+    transform: rotate(13600deg);
+    border-bottom-color: yellow;
+    border-top-color: darkred;
+    border-left-color: coral;
+    border-right-color: darkgreen;
+    background-color: black;
+}
+
+button{
+    background-color: lawngreen;
+    color: white;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+}
